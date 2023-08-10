@@ -17,6 +17,10 @@
     text-transform: capitalize;
     transition: all .2s linear;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 html{
     font-size: 62.5%;
@@ -107,7 +111,7 @@ section{
 .home{
     min-height: 100vh;
     padding-top: 12rem;
-    background: url(../image/book-bg.jpg) no-repeat;
+    background: url(../image/pngtree-simple-desktop-image.jpeg) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -235,7 +239,7 @@ section{
 }
 
 .menu{
-    background: url(../image/menu-bg.jpg) no-repeat;
+    background: url(../image/phonoteka_org.jpeg) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -369,7 +373,7 @@ section{
 }
 
 .book{
-    background:url(../image/book-bg.jpg) no-repeat;
+    background:url(../image/phonoteka_org.jpeg) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -441,20 +445,6 @@ section{
 .footer .credit span{
     border-bottom: var(--border-hover);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* media queries  */
 
@@ -543,4 +533,13 @@ section{
         width: 100%;
     }
 
+}
+
+.name {
+  text-align: center;
+  font-size: 14px;
+  color:var(--main-color);
+}
+.footer-copyright{
+margin-bottom: 25px;
 }
